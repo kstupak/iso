@@ -1,0 +1,21 @@
+{
+    "name": "kstupak/iso",
+    "description": "Collection of enums containing most used ISO data - country codes, currencies, etc",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ISO\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kostiantyn Stupak",
+            "email": "kostiantyn.stupak@protonmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.1"
+    }
+}
